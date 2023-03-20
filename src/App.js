@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div style={{ textAlign: 'center' }}>
-      <h1>NBA Jersey Locker</h1>
+      <h1 >NBA Jersey Locker</h1>
       <div style={{ display: 'flex', justifyContent: 'center' }}>
       <a href = "https://www.nba.com/city-edition-jerseys/2022-23">
         <img

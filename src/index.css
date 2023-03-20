@@ -11,7 +11,17 @@ h1 {
 img {
   border-radius: 10px;
 }
-
+h1 {
+  font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #7289da;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  text-shadow: 0 2px 0 rgba(0,0,0,0.1);
+  margin: 2;
+  padding: 0;
+}
 .button {
   background-color: #7289da;
   color: #fff;
@@ -19,7 +29,7 @@ img {
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin-top: 20px;
 }
