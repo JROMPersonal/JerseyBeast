@@ -4,8 +4,44 @@ function App() {
 
 
   const [jerseys, setJerseys] = useState([
-    {id: 1, name:"Jazz", image: ['https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Utah%20Jazz/UTA_IE.jpg' ]},
-    {id: 2, name:"Kings", image:['https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Sacramento%20Kings/SAC_IE.jpg']},
+    {
+      id: 1,
+      name:"Jazz",
+      image:
+      [
+        {
+          id: 1, link: 'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Utah%20Jazz/UTA_AE.jpg'
+        },
+        {
+          id: 2, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Utah%20Jazz/UTA_IE.jpg'
+        },
+        {
+          id: 3, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Utah%20Jazz/UTA_SE.jpg'
+        },
+        {
+          id: 4, link: 'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Utah%20Jazz/UTA_CLE.jpg'
+        }
+      ]
+    },
+    {
+      id: 2,
+      name:"Kings",
+      image:
+      [
+        {
+          id: 1, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Sacramento%20Kings/SAC_AE.jpg'
+        },
+        {
+          id: 2, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Sacramento%20Kings/SAC_IE.jpg'
+        },
+        {
+          id: 3, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Sacramento%20Kings/SAC_SE.jpg'
+        },
+        {
+          id: 4, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Sacramento%20Kings/SAC_CE.jpg'
+        }
+      ]
+    },
     {id: 3, name:"Magic", image:['https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Orlando%20Magic/ORL_AE.jpg']},
     {id: 4, name:"Wizards", image:['https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Washington%20Wizards/WAS_IE.jpg']},
     {id: 5, name:"Hawks", image:['https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Atlanta%20Hawks/ATL_AE.jpg']},
@@ -44,7 +80,7 @@ function App() {
     setSelectedImage(null);
   }
 
-  var ranJersey = getRandomJersey();
+  var ranJersey = jerseys[0];
   var ranJersey2 = getRandomJersey();
   var ranPic_from_jersey = getRandomPicFromImageArray(ranJersey);
   var ranPic_from_jersey2 = getRandomPicFromImageArray(ranJersey2);
@@ -57,8 +93,7 @@ function App() {
       <div style={{ display: 'flex', justifyContent: 'center' }}>
       <a href = "https://www.nba.com/city-edition-jerseys/2022-23">
         <img
-
-          src={ranJersey.image[ranPic_from_jersey]}
+          src={ranJersey.image[ranPic_from_jersey].link}
           alt="Image 1"
           onClick={() => handleImageClick('image1')}
           style={{
@@ -69,7 +104,7 @@ function App() {
         </a>
         <a href = "https://www.nba.com/city-edition-jerseys/2022-23">
         <img
-          src={ranJersey2.image[ranPic_from_jersey2]}
+          src={ranJersey2.image[ranPic_from_jersey2].link}
           alt="Image 2"
           onClick={() => handleImageClick('image2')}
 
