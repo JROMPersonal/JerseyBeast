@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/JerseyBeast/static/css/main.02475e5c.css",
-    "main.js": "/JerseyBeast/static/js/main.53dfc5fe.js",
+    "main.js": "/JerseyBeast/static/js/main.31d9eb88.js",
     "static/js/787.998e4b75.chunk.js": "/JerseyBeast/static/js/787.998e4b75.chunk.js",
     "index.html": "/JerseyBeast/index.html",
     "main.02475e5c.css.map": "/JerseyBeast/static/css/main.02475e5c.css.map",
-    "main.53dfc5fe.js.map": "/JerseyBeast/static/js/main.53dfc5fe.js.map",
+    "main.31d9eb88.js.map": "/JerseyBeast/static/js/main.31d9eb88.js.map",
     "787.998e4b75.chunk.js.map": "/JerseyBeast/static/js/787.998e4b75.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02475e5c.css",
-    "static/js/main.53dfc5fe.js"
+    "static/js/main.31d9eb88.js"
   ]
 }
