@@ -48,8 +48,8 @@ function App() {
       image:
       [
         {
-          'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Orlando%20Magic/ORL_AE.jpg'
-        },
+          id: 1, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Orlando%20Magic/ORL_AE.jpg'
+        }
       ]
     },
     {
@@ -58,7 +58,7 @@ function App() {
       image:
       [
         {
-          'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Washington%20Wizards/WAS_IE.jpg'
+          id: 1, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Washington%20Wizards/WAS_IE.jpg'
         },
       ]
     },
@@ -68,7 +68,7 @@ function App() {
       image:
       [
         {
-          'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Atlanta%20Hawks/ATL_AE.jpg'
+          id: 1, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Atlanta%20Hawks/ATL_AE.jpg'
         },
       ]
     },
@@ -78,7 +78,7 @@ function App() {
       image:
       [
         {
-          'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Detroit%20Pistons/DET_SE.jpg'
+          id: 1, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Detroit%20Pistons/DET_SE.jpg'
         },
       ]
     },
@@ -88,7 +88,7 @@ function App() {
       image:
       [
         {
-          'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Brooklyn%20Nets/BKN_IE.jpg'
+          id: 1, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Brooklyn%20Nets/BKN_IE.jpg'
         },
       ]
     },
@@ -98,7 +98,7 @@ function App() {
       image:
       [
         {
-          'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Cleveland%20Cavaliers/CLE_AE.jpg'
+          id: 1, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Cleveland%20Cavaliers/CLE_AE.jpg'
         },
       ]
     },
@@ -108,7 +108,7 @@ function App() {
       image:
       [
         {
-          'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/New%20Orleans%20Pelicans/NOP_SE.jpg'
+          id: 1, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/New%20Orleans%20Pelicans/NOP_SE.jpg'
         },
       ]
     },
@@ -118,7 +118,7 @@ function App() {
       image:
       [
         {
-          'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/San%20Antonio%20Spurs/SAS_CLE.jpg'
+          id: 1, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/San%20Antonio%20Spurs/SAS_CLE.jpg'
         },
       ]
     },
@@ -128,7 +128,7 @@ function App() {
       image:
       [
         {
-          'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Sacramento%20Kings/SAC_SE.jpg'
+          id: 1, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Sacramento%20Kings/SAC_SE.jpg'
         },
       ]
     },
@@ -138,7 +138,7 @@ function App() {
       image:
       [
         {
-          'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Boston%20Celtics/BOS_IE.jpg'
+          id: 1, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Boston%20Celtics/BOS_IE.jpg'
         },
       ]
     },
@@ -148,7 +148,7 @@ function App() {
       image:
       [
         {
-          'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/LA%20Clippers/LAC_IE.jpg'
+          id: 1, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/LA%20Clippers/LAC_IE.jpg'
         },
       ]
     },
@@ -158,7 +158,7 @@ function App() {
       image:
       [
         {
-          'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Oklahoma%20City%20Thunder/OKC_AE.jpg'
+          id: 1, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Oklahoma%20City%20Thunder/OKC_AE.jpg'
         },
       ]
     },
@@ -168,7 +168,7 @@ function App() {
       image:
       [
         {
-          'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Washington%20Wizards/WAS_CE.jpg'
+          id: 1, link:'https://appimages.nba.com/p/tr:n-slnfre/2022/uniform/Washington%20Wizards/WAS_CE.jpg'
         },
       ]
     },
